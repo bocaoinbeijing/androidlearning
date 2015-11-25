@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button android:text="开 灯"
+        android:id="@+id/btnOn"
+        android:textSize="30dp"
+        android:layout_width="300px"
+        android:layout_height="200px" />
+    <Button android:text="关 灯"
+        android:textSize="30dp"
+        android:id="@+id/btnOff"
+        android:layout_width="300px"
+        android:layout_height="200px" />
+    <Button android:text="退出"
+        android:textSize="30dp"
+        android:id="@+id/btnEx"
+        android:layout_width="300px"
+        android:layout_height="200px" />
+    
+</LinearLayout>
